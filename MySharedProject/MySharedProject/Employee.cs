@@ -21,7 +21,7 @@ namespace MySharedProject
             Phone = "5055551234";
             Address = "Albuquerque, New Mexico";
 
-            return string.Concat($"Name: {FirstName} {LastName}\nEmp ID: {EmployeeID}\nAddress: {Address}\nPhone: {Phone}");
+            return $"Name: {FirstName} {LastName}\nEmp ID: {EmployeeID}\nAddress: {Address}\nPhone: {Phone}";
         }
     }
 }
